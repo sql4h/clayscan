@@ -1,0 +1,12 @@
+node_modules/
+clayscan-reports/
+reports/
+*.log
+.env
+.DS_Store
+
+# tooling caches
+.impeccable/
+clayscan-reports/
+smoke/
+js-report/

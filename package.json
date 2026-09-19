@@ -1,0 +1,32 @@
+{
+  "name": "clayscan",
+  "version": "0.1.0",
+  "description": "ClayScan — an authorized-scope, AI-assisted dynamic web vulnerability scanner. Drives a real Chrome browser, safely probes the OWASP Top 10, and reports each finding with evidence, impact, and remediation.",
+  "type": "module",
+  "bin": {
+    "clayscan": "bin/clayscan.js"
+  },
+  "scripts": {
+    "start": "node bin/clayscan.js",
+    "browser": "playwright install chromium"
+  },
+  "keywords": [
+    "security",
+    "dast",
+    "vulnerability-scanner",
+    "owasp",
+    "pentest",
+    "web-security",
+    "appsec"
+  ],
+  "author": "sql4h",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "playwright": "^1.47.0"
+  }
+}
